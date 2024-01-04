@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 declare(strict_types=1);
 include 'includes/header.php';
@@ -11,6 +11,10 @@ class  Producto  {
 }
 
 $producto = new Producto( 'Tablet', 200, true);
+
+echo "El producto es: " . $producto->nombre; . " y su precio es de: " . $producto->precio;
+
+
 echo "<pre>";
 var_dump($producto);
 echo "</pre>";
