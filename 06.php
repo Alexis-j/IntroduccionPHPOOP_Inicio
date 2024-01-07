@@ -26,4 +26,8 @@ class Transporte implements TransporteInterfaz {
 
 
 
+<<<<<<< HEAD
 include 'includes/footer.php';
+=======
+include 'includes/footer.php';
+>>>>>>> master

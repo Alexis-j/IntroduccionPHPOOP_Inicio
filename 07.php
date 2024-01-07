@@ -25,7 +25,11 @@ class Transporte implements TransporteInterfaz {
 class  Automovil extends Transporte implements TransporteInterfaz {
     public function __construct(protected int $ruedas, protected int $capacidad, protected string $color)
     {
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> master
     }
     public function getTransition() : string {
         return "El transporte tiene " . $this->ruedas . " ruedas y una capacidad de " . $this->capacidad . " personas y tiene el color " . $this->color;

@@ -26,7 +26,6 @@ class Bicicleta extends Transporte {
 class Automovil extends Transporte {
     public function __construct(protected int $ruedas, protected int $capacidad, protected string $transmision)
     {
-
     }
     public function getTransition() : string {
         return "  y tiene una transmisión " . $this->transmision;
@@ -41,7 +40,3 @@ echo "<hr>";
 $automovil = new Automovil(4, 5, 'Automatica');
 echo $automovil->getInfo();
 echo $automovil->getTransition();
-
-
-
-include 'includes/footer.php';
