@@ -21,22 +21,14 @@ abstract class Transporte {
 class Bicicleta extends Transporte {
     public function getInfo() : string {
         return "El transporte tiene " . $this->ruedas . " ruedas y una capacidad de " . $this->capacidad . " personas  Y NO GASTA GASOLINA";
-<<<<<<< HEAD
+
     }
 }
-=======
-    }  
-}	
->>>>>>> master
 
 class Automovil extends Transporte {
     public function __construct(protected int $ruedas, protected int $capacidad, protected string $transmision)
     {
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> master
     }
     public function getTransition() : string {
         return "  y tiene una transmisión " . $this->transmision;
@@ -56,16 +48,6 @@ echo "<hr>";
 
 $automovil = new Automovil(4, 5, 'Automatica');
 echo $automovil->getInfo();
-<<<<<<< HEAD
+
 echo $automovil->getTransition();
-
-
-
 include 'includes/footer.php';
-=======
-echo $automovil->getTransition();   
-
-
-
-include 'includes/footer.php';
->>>>>>> master

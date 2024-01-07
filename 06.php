@@ -22,12 +22,4 @@ class Transporte implements TransporteInterfaz {
         return $this->ruedas;
     }
 }
-
-
-
-
-<<<<<<< HEAD
 include 'includes/footer.php';
-=======
-include 'includes/footer.php';
->>>>>>> master
